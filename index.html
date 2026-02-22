@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sourabh Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="bg-blob"></div>
+
+<header class="navbar">
+  <div class="brand">Sourabh<span class="accent">Dev</span></div>
+  <nav>
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section id="home" class="section hero">
+  <div class="hero-content">
+    <p class="eyebrow">Full-Stack Developer</p>
+
+    <h1>
+      Hi, I’m <span class="accent">Sourabh Hombal</span><br/>
+      <span id="typed"></span>
+    </h1>
+
+    <p class="sub">
+      Passionate about building efficient Java applications, modern web solutions, and integrating innovative technologies.
+    </p>
+
+    <div class="cta-row">
+      <a href="#projects" class="button primary">View Projects</a>
+      <a href="#contact" class="button ghost">Get in touch</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat"><span class="num">4+</span><span class="label">Internships</span></div>
+      <div class="stat"><span class="num">6+</span><span class="label">Projects</span></div>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="DSC_2857.JPG" alt="Profile" />
+  </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2 class="section-title">About Me</h2>
+
+  <p class="about-text">
+    I’m <span class="accent">Sourabh Hombal</span>, a passionate Full-Stack Developer and Java enthusiast.
+    I love building efficient applications, solving coding challenges, and creating modern web solutions.
+  </p>
+
+  <div class="about-links">
+    <a href="https://github.com/Sourabh9384" target="_blank" class="button small">GitHub</a>
+    <a href="http://hackerrank.com/profile/sourabhvh23" target="_blank" class="button small">HackerRank</a>
+    <a href="https://www.codechef.com/users/canny_bass_12" target="_blank" class="button small">CodeChef</a>
+    <a href="https://www.linkedin.com/in/sourabh94/" target="_blank" class="button small">LinkedIn</a>
+    <a href="mailto:Sourabhvh23@gmail.com" class="button small">Email</a>
+    <a href="tel:+917019437762" class="button small">Phone</a>
+  </div>
+
+  <div class="resume-download">
+    <a href="Sourabh_Java_Developer_Resume(java).pdf" download class="button primary">
+      Download Resume
+    </a>
+  </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2 class="section-title">Skills & Technologies</h2>
+
+  <div class="tab-buttons">
+    <button class="tab-btn active" data-tab="frontend">Frontend</button>
+    <button class="tab-btn" data-tab="backend">Backend</button>
+    <button class="tab-btn" data-tab="databases">Databases</button>
+  </div>
+
+  <div class="tab-content">
+
+    <div class="tab-panel active" id="frontend">
+      <div class="chip-grid">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">ReactJS</span>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="backend">
+      <div class="chip-grid">
+        <span class="chip">Java</span>
+        <span class="chip">Spring</span>
+        <span class="chip">Hibernate</span>
+        <span class="chip">PHP</span>
+        <span class="chip">JDBC</span>
+        <span class="chip">Servlets</span>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="databases">
+      <div class="chip-grid">
+        <span class="chip">MySQL</span>
+      </div>
+    </div>
+
+  </div>
+
+  <h3 class="ai-title">AI Tools I Use</h3>
+
+<div class="ai-carousel">
+  <div class="ai-track">
+    <span class="chip">ChatGPT</span>
+    <span class="chip">Cursor AI</span>
+    <span class="chip">Tailwind CSS</span>
+    <span class="chip">GitHub Copilot</span>
+    <span class="chip">ChatGPT</span>
+    <span class="chip">Cursor AI</span>
+    <span class="chip">Tailwind CSS</span>
+    <span class="chip">GitHub Copilot</span>
+  </div>
+</div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2 class="section-title">Featured Projects</h2>
+
+  <div class="cards">
+
+    <!-- ================= Restaurant Table Booking System ================= -->
+    <article class="card">
+
+      <div class="card-top">
+        <h3>Restaurant Table Booking System</h3>
+
+        <p>
+          Full-stack reservation platform enabling customers to book tables online 
+          with real-time availability tracking and admin management.
+        </p>
+
+        <div class="tag-row">
+          <span class="tag">PHP</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Bootstrap</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="card-bottom">
+        <div class="project-links">
+          <a href="https://github.com/Sourabh9384/restaurant-table-booking-system"
+             target="_blank" class="button small">GitHub</a>
+
+          <a href="https://restaurantbookingsystem.infinityfreeapp.com/?i=1"
+             target="_blank" class="button small primary">Live Demo</a>
+        </div>
+
+        <button class="read-more-btn">Read More</button>
+
+        <div class="more-content">
+          <ul>
+            <li>Built responsive UI using Bootstrap & JavaScript.</li>
+            <li>Admin dashboard to manage reservations efficiently.</li>
+            <li>Integrated MySQL database for secure booking storage.</li>
+            <li>Deployed live using InfinityFree hosting platform.</li>
+          </ul>
+        </div>
+      </div>
+
+    </article>
+
+
+    <!-- ================= Banking Management System ================= -->
+    <article class="card">
+
+      <div class="card-top">
+        <h3>Banking Management System</h3>
+
+        <p>
+          Secure banking web application developed using Java (JDBC & Servlets) 
+          and MySQL for managing customer accounts, transactions, and fund transfers.
+        </p>
+
+        <div class="tag-row">
+          <span class="tag">Java</span>
+          <span class="tag">JDBC</span>
+          <span class="tag">Servlets</span>
+          <span class="tag">MySQL</span>
+        </div>
+      </div>
+
+      <div class="card-bottom">
+        <div class="project-links">
+          <a href="https://github.com/Sourabh9384/Banking-Management-System-JDBC"
+             target="_blank" class="button small">GitHub</a>
+        </div>
+
+        <button class="read-more-btn">Read More</button>
+
+        <div class="more-content">
+          <ul>
+            <li>Implemented secure user authentication system.</li>
+            <li>Developed deposit and withdrawal functionality.</li>
+            <li>Integrated MySQL database using JDBC.</li>
+            <li>Designed structured and secure backend architecture.</li>
+          </ul>
+        </div>
+      </div>
+
+    </article>
+
+
+    <!-- ================= 3D Reconstruction of Organs ================= -->
+    <article class="card">
+
+      <div class="card-top">
+        <h3>3D Reconstruction of Organs</h3>
+
+        <p>
+          Medical imaging project that reconstructs 3D organ models from CT & MRI 
+          scan slices using Python-based image processing and visualization techniques.
+        </p>
+
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">Medical Imaging</span>
+          <span class="tag">3D Visualization</span>
+        </div>
+      </div>
+
+      <div class="card-bottom">
+        <div class="project-links">
+          <a href="https://github.com/Sourabh9384/3D_reconstruction_project"
+             target="_blank" class="button small">GitHub</a>
+        </div>
+
+        <button class="read-more-btn">Read More</button>
+
+        <div class="more-content">
+          <ul>
+            <li>Processed CT/MRI scan slices using Python libraries.</li>
+            <li>Generated 3D volumetric reconstruction models.</li>
+            <li>Applied advanced image processing algorithms.</li>
+            <li>Improved medical image visualization accuracy</li>
+          </ul>
+        </div>
+      </div>
+
+    </article>
+
+  </div>
+</section>
+
+
+<!-- INTERNSHIPS -->
+<section id="internships" class="section">
+  <h2 class="section-title">Internships</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="content">
+        <h3>Tap Academy — Java Full Stack Developer Intern</h3>
+        <p><strong>Jul 2025 – Present</strong></p>
+        <p>Worked on Java, Spring, Hibernate, MySQL and built responsive full-stack applications.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="content">
+        <h3>AICTE & Palo Alto Networks — Cybersecurity Intern</h3>
+        <p><strong>Apr 2024 – Jun 2024</strong></p>
+        <p>Learned firewalls, intrusion detection, and security best practices.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="content">
+        <h3>VTU-NASD — Hardware & Web Programming Intern</h3>
+        <p><strong>Aug 2023 – Oct 2023</strong></p>
+        <p>Worked on computer hardware, networking and web programming basics.</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="content">
+        <h3>Compsoft Technology — Full Stack Intern</h3>
+        <p><strong>Oct 2022 – Nov 2022</strong></p>
+        <p>Worked on HTML, CSS, JavaScript and backend integrations.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <h2 class="section-title">Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="content">
+        <h3>KLS Vishwanathrao Deshpande Institute of Technology</h3>
+        <p>Dec 2021 – Jun 2025</p>
+        <p>B.Tech in Electronics & Communication</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="content">
+        <h3>Prism P.U Science College</h3>
+        <p>May 2020 – Jul 2021</p>
+        <p>PUC — Science Stream</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="content">
+        <h3>St. Joseph’s High School</h3>
+        <p>May 2018 – Apr 2019</p>
+        <p>SSLC</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2 class="section-title">Contact</h2>
+
+  <form action="https://formspree.io/f/mgvgygwq" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your name" required />
+    <input type="email" name="email" placeholder="Your email" required />
+    <textarea name="message" rows="4" placeholder="Message" required></textarea>
+    <button type="submit" class="button primary">Send</button>
+  </form>
+</section>
+
+</main>
+
+<footer class="footer">
+  © 2025 SourabhDev. Built with love and Java.
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
